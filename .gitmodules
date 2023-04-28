@@ -1,4 +1,3 @@
-
-[submodule "dependencies/zycore-c"]
-	path = dependencies/zycore-c
-	url = https://github.com/HyperDbg/zycore-c
+[submodule "dependencies/zycore"]
+	path = dependencies/zycore
+	url = https://github.com/HyperDbg/zycore
