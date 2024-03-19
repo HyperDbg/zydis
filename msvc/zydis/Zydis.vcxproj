@@ -583,6 +583,7 @@
       <Optimization>MaxSpeed</Optimization>
       <DisableSpecificWarnings>4201;4603;4627;4986;4987;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
     </ClCompile>
     <Lib>
       <SubSystem>Native</SubSystem>
@@ -606,6 +607,7 @@
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>ZYDIS_SHOULD_EXPORT;_DLL;WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -639,6 +641,7 @@
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>ZYDIS_SHOULD_EXPORT;_DLL;WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -846,6 +849,7 @@
       <Optimization>MaxSpeed</Optimization>
       <DisableSpecificWarnings>4201;4603;4627;4986;4987;%(DisableSpecificWarnings)</DisableSpecificWarnings>
       <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
     </ClCompile>
     <Lib>
       <SubSystem>Native</SubSystem>
@@ -869,6 +873,7 @@
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>ZYDIS_SHOULD_EXPORT;_DLL;WIN32;_WIN64;NDEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -902,6 +907,7 @@
       <RuntimeTypeInfo>false</RuntimeTypeInfo>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
       <LanguageStandard_C>stdc11</LanguageStandard_C>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>ZYDIS_SHOULD_EXPORT;_DLL;WIN32;_WIN64;NDEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
