@@ -196,7 +196,6 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug Kernel|x64'" Label="Configuration">
     <WindowsTargetPlatformVersion>$(LatestTargetPlatformVersion)</WindowsTargetPlatformVersion>
     <TargetVersion>Windows10</TargetVersion>
-    <_NT_TARGET_VERSION>0x0601</_NT_TARGET_VERSION>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>WindowsKernelModeDriver10.0</PlatformToolset>
     <ConfigurationType>StaticLibrary</ConfigurationType>
@@ -237,7 +236,6 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Kernel|x64'" Label="Configuration">
     <WindowsTargetPlatformVersion>$(LatestTargetPlatformVersion)</WindowsTargetPlatformVersion>
     <TargetVersion>Windows10</TargetVersion>
-    <_NT_TARGET_VERSION>0x0601</_NT_TARGET_VERSION>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>WindowsKernelModeDriver10.0</PlatformToolset>
     <ConfigurationType>StaticLibrary</ConfigurationType>
